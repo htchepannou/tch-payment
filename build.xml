@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="tch-payment" default="change-version">
+    <property name="current.version">3.0</property>
+    <property name="next.version">3.1</property>
+
+    <target name="change-version">
+
+        <replace dir="${basedir}" value="${next.version}" token="${current.version}">
+            <include name="**/pom.xml"/>
+            <include name="**/build.properties"/>
+        </replace>
+    </target>
+</project>

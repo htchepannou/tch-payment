@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tch-payment.iml" filepath="$PROJECT_DIR$/tch-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tch-payment-aim/tch-payment-aim.iml" filepath="$PROJECT_DIR$/tch-payment-aim/tch-payment-aim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tch-payment-api/tch-payment-api.iml" filepath="$PROJECT_DIR$/tch-payment-api/tch-payment-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tch-payment-mock/tch-payment-mock.iml" filepath="$PROJECT_DIR$/tch-payment-mock/tch-payment-mock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tch-payment-paypal/tch-payment-paypal.iml" filepath="$PROJECT_DIR$/tch-payment-paypal/tch-payment-paypal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tch-payment-stripe/tch-payment-stripe.iml" filepath="$PROJECT_DIR$/tch-payment-stripe/tch-payment-stripe.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Maven: paypal">
+    <CLASSES>
+      <root url="jar:///var/maven/repository/com/paypal/sdk/paypal-core/1.4.4/paypal-core-1.4.4.jar!/" />
+      <root url="jar:///var/maven/repository/com/paypal/sdk/adaptiveaccountssdk/2.4.106/adaptiveaccountssdk-2.4.106.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

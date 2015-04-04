@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tchepannou.payment</groupId>
+        <artifactId>tch-payment</artifactId>
+        <version>3.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>tch-payment-aim</artifactId>
+    <packaging>jar</packaging>
+    <name>tch-payment-aim</name>
+    <description>Online Payment API: Authorize.NET Implementation</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tchepannou.payment</groupId>
+            <artifactId>tch-payment-api</artifactId>
+            <version>${parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${httpclient.version}</version>
+        </dependency>        
+    </dependencies>    
+</project>
