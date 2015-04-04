@@ -17,7 +17,7 @@
         <module>tch-payment-stripe</module>
     </modules>
     <properties>
-        <tch-util.version>2.0.3</tch-util.version>
+        <tch-util.version>3.0.0</tch-util.version>
         <httpclient.version>4.3.6</httpclient.version>
     </properties>
 

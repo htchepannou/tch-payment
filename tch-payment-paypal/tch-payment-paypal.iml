@@ -13,9 +13,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: com.paypal.sdk:adaptiveaccountssdk:2.4.106" level="project" />
     <orderEntry type="library" name="Maven: com.paypal.sdk:paypal-core:1.4.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.2" level="project" />
     <orderEntry type="module" module-name="tch-payment-api" />
     <orderEntry type="library" name="Maven: com.paypal.sdk:adaptiveaccountssdk:2.5.106" level="project" />
     <orderEntry type="library" name="Maven: com.paypal.sdk:paypal-core:1.6.4" level="project" />
