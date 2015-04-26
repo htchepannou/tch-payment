@@ -280,7 +280,7 @@ public class AIMGateway
 
             /* Return the response */
             String body = EntityUtils.toString (resp.getEntity ());
-            return AIMPResponse.parse(body, params.get(FIELD_DELIM_CHAR));
+            return AIMPResponse.parse(body, params.get(FIELD_DELIM_CHAR), params);
         }
         finally
         {
