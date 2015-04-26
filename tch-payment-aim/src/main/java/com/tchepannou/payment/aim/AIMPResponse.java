@@ -16,7 +16,7 @@ import com.tchepannou.payment.api.response.RefundResponse;
  * 
  * @author herve
  */
-class AIMPResponse
+public class AIMPResponse
     implements PaymentResponse,
                AuthorizeResponse,
                CancelResponse,
