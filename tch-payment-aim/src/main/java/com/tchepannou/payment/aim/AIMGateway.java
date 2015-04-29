@@ -123,17 +123,17 @@ public class AIMGateway
     public PaymentResponse process(PaymentRequest request)
             throws IOException
     {
-        if (request instanceof AuthorizeRequest)
+        if (request instanceof DirectPaymentRequest)
+        {
+            return doDirectPayment((DirectPaymentRequest) request);
+        }
+        else if (request instanceof AuthorizeRequest)
         {
             return doAuthorize((AuthorizeRequest) request);
         }
         else if (request instanceof CaptureRequest)
         {
             return doCapture((CaptureRequest) request);
-        }
-        else if (request instanceof DirectPaymentRequest)
-        {
-            return doDirectPayment((DirectPaymentRequest) request);
         }
         else if (request instanceof CancelRequest)
         {
